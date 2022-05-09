@@ -29,7 +29,14 @@
             $mail->Password = 'Ryan09395038568';
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
             $mail->Port = 465;
-            
+
+            //for recipients
+            $mail->setFrom('rylepio79@gmail.com','testEmail');
+            $mail->addAddress('lepioryanchristian_bscs@plmun.edu.ph');
+            $mail->addReplyTo('info@example.com', 'Information');
+            $mail->addCC('cc@example.com');
+            $mail->addBCC('bcc@example.com');
+        
         }catch(Exception $e){
 
         }
