@@ -20,7 +20,11 @@
         //Create an instance; passing `true` enables exceptions
         $mail = new PHPMailer(true);
 
-        echo 'hello worldssss';
+        try{
+
+        }catch(Exception $e){
+
+        }
     ?>
 </body>
 </html>
