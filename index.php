@@ -42,7 +42,7 @@
             //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    //Optional name
 
             //for email content
-            $mail->Subject('Subject Testing');
+            $mail->Subject = 'Subject Testing';
             $mail->Body('<b>Good day!</b><br><br>This is just an test email from <i>PHPMailer.</i>');
 
         }catch(Exception $e){
