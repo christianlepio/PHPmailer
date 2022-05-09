@@ -33,8 +33,8 @@
             //for recipients
             $mail->setFrom('rylepio79@gmail.com','testEmail');
             $mail->addAddress('lepioryanchristian_bscs@plmun.edu.ph');
-            $mail->addReplyTo('info@example.com', 'Information');
-            $mail->addCC('cc@example.com');
+            //$mail->addReplyTo('info@example.com', 'Information');
+            //$mail->addCC('cc@example.com');
             $mail->addBCC('bcc@example.com');
         
             //Attachments
