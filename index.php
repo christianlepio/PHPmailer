@@ -35,11 +35,15 @@
             $mail->addAddress('lepioryanchristian_bscs@plmun.edu.ph');
             //$mail->addReplyTo('info@example.com', 'Information');
             //$mail->addCC('cc@example.com');
-            $mail->addBCC('bcc@example.com');
+            //$mail->addBCC('bcc@example.com');
         
             //Attachments
             //$mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
             //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    //Optional name
+
+            //for email content
+            $mail->Subject('Subject Testing');
+
         }catch(Exception $e){
 
         }
