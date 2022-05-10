@@ -7,6 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-
+    <?php
+        require 'sendmail.php';
+    ?>
 </body>
 </html>
