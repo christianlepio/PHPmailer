@@ -42,6 +42,7 @@
             //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    //Optional name
 
             //for email content
+            $mail->isHTML(true);
             $mail->Subject = 'Subject Testing';
             $mail->Body = '<b>Good day!</b><br><br>This is just an test email from <i>PHPMailer.</i>';
 
