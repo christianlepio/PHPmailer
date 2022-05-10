@@ -48,7 +48,7 @@
             $mail->send();
             echo '<center>YOUR MESSAGE HAS BEEN SENT!</center>';
         }catch(Exception $e){
-            
+            echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
         }
     ?>
 </body>
