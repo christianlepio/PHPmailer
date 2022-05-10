@@ -45,8 +45,10 @@
             $mail->Subject = 'Subject Testing';
             $mail->Body = '<b>Good day!</b><br><br>This is just an test email from <i>PHPMailer.</i>';
 
+            $mail->send();
+            echo '<center>YOUR MESSAGE HAS BEEN SENT!</center>';
         }catch(Exception $e){
-
+            
         }
     ?>
 </body>
