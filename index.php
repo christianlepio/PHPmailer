@@ -25,13 +25,13 @@
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'rylepio79@gmail.com';
-            $mail->Password = 'Ryan09395038568';
+            $mail->Username = 'confessnow.contact@gmail.com';
+            $mail->Password = 'secret012345';
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
             $mail->Port = 465;
 
             //for recipients
-            $mail->setFrom('rylepio79@gmail.com','testEmail');
+            $mail->setFrom('confessnow.contact@gmail.com','testEmail');
             $mail->addAddress('lepioryanchristian_bscs@plmun.edu.ph');
             //$mail->addReplyTo('info@example.com', 'Information');
             //$mail->addCC('cc@example.com');
