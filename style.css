@@ -5,7 +5,7 @@ button{
     background-color: #FFCD38;
     border: 1px solid #FFCD38;
 
-    transform: translate(-100%, -100%);
+    transform: translate(0%, 0%);
     transition: .5s cubic-bezier(.52,1.65,1,1.31);
 }
 button:hover{
