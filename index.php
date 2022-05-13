@@ -41,7 +41,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-5">
                     <div class="form-floating">
-                        <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea" style="height: 100px"></textarea>
+                        <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea" style="height: 150px"></textarea>
                         <label for="floatingTextarea">Your Message</label>
                     </div>
                 </div>
