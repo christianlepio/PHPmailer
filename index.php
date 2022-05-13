@@ -16,7 +16,6 @@
         <form action="" method="post">
             <div class="row justify-content-center">
                 <div class="col-md-5">
-                    <input type="text" name="" id="">
                 </div>
             </div>
         </form>
