@@ -5,3 +5,6 @@ button{
     background-color: #FFCD38;
     border: 1px solid #FFCD38;
 }
+button:hover{
+    color: greenyellow;
+}
