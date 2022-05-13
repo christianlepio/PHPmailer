@@ -42,7 +42,7 @@
                 <div class="col-md-5">
                     <div class="form-floating">
                         <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-                        <label for="floatingTextarea">Comments</label>
+                        <label for="floatingTextarea">Your Message</label>
                     </div>
                 </div>
             </div>
