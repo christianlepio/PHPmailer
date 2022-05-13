@@ -14,7 +14,7 @@
     ?>
     <div class="container">
         <form action="" method="post">
-            <div style="width: 90vmin; margin:auto; margin-top:5em;" class="py-5 shadow">
+            <div style="width: 90vmin; margin:auto; margin-top:5em; border-radius:15px;" class="py-5 shadow">
                 <div class="row justify-content-center">
                     <div class="col-md-11 px-4">
                         <div class="form-floating mb-3">
@@ -34,7 +34,7 @@
                 <div class="row justify-content-center">
                     <div class="col-md-11 px-4">
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" required>
                             <label for="floatingInput">Subject</label>
                         </div>
                     </div>
