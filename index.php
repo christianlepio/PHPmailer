@@ -51,7 +51,8 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-md-11 border">
-                        <button class="mt-4 mb-1" type="submit" name="sendmail">SEND</button>
+                        <center>
+                        <button class="mt-4 mb-1" type="submit" name="sendmail">SEND</button></center>
                     </div>
                 </div>
             </div>
