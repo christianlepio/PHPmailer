@@ -24,7 +24,7 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-11">
+                <div class="col-md-11 px-4">
                     <div class="form-floating mb-3">
                         <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
                         <label for="floatingInput">Your Email<span class="text-danger"> *</span></label>
