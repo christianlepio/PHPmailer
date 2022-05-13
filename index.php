@@ -14,7 +14,7 @@
     ?>
     <div class="container">
         <form action="" method="post">
-            <div class="py-5" style="width: 90vmin; margin:auto">
+            <div class="py-5 shadow-lg" style="width: 90vmin; margin:auto">
                 <div class="row justify-content-center">
                     <div class="col-md-11 px-4">
                         <div class="form-floating mb-3">
