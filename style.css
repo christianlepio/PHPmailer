@@ -9,7 +9,6 @@ button{
     transition: .5s cubic-bezier(.52,1.65,1,1.31);
 }
 button:hover{
-    letter-spacing: 2px;
     background-color: #FF8D29;
     border: 1px solid #FF8D29;
     color: white;
