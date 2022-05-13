@@ -12,5 +12,4 @@ button:hover{
     background-color: greenyellow;
     border: 1px solid greenyellow;
     color: white;
-    transform: translate(-50%, -50%) scaleY(.9);
 }
