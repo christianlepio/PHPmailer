@@ -15,7 +15,7 @@
     <div class="container">
         <form action="" method="post">
             <div style="width: 90vmin; margin:auto; margin-top:5em; border-radius:15px;" class="py-5 shadow">
-                <h3 class="text-center text-secondary">Send Me a Message</h3>
+                <h3 class="text-center text-secondary mb-5">Send Me a Message</h3>
                 <div class="row justify-content-center">
                     <div class="col-md-11 px-4">
                         <div class="form-floating mb-3">
