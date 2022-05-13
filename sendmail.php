@@ -38,7 +38,7 @@
         $mail->Body = '<b>Good day!</b><br><br>This is just an test email from <i>PHPMailer.</i>';
 
         //$mail->send();
-        echo '<center>YOUR MESSAGE HAS BEEN SENT!</center>';
+        //echo '<center>YOUR MESSAGE HAS BEEN SENT!</center>';
     }catch(Exception $e){
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
     }
