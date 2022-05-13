@@ -14,6 +14,7 @@
     ?>
     <div class="container">
         <form action="" method="post">
+            <div class="border">
             <div class="row justify-content-center">
                 <div class="col-md-5">
                     <div class="form-floating mb-3">
@@ -45,6 +46,7 @@
                         <label for="floatingTextarea">Your Message</label>
                     </div>
                 </div>
+            </div>
             </div>
         </form>
     </div>
