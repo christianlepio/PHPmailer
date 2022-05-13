@@ -18,7 +18,7 @@
                 <div class="col-md-5">
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">Your Name</label>
+                        <label for="floatingInput">Your Name<span>*</span></label>
                     </div>
                 </div>
             </div>
