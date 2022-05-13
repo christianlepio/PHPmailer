@@ -14,7 +14,7 @@
     ?>
     <div class="container">
         <form action="" method="post">
-            <div style="width: 75vmin; border:1px solid black;">
+            <div style="width: 75vmin; border:1px solid black; margin:auto">
             <div class="row justify-content-center">
                 <div class="col-md-10">
                     <div class="form-floating mb-3">
