@@ -13,7 +13,7 @@
         //name, email, subj., your message...
     ?>
     <div class="container">
-        <form action="" method="post" class="border">
+        <form action="" method="post">
             <div class="row justify-content-center">
                 <div class="col-md-5">
                     <div class="form-floating mb-3">
