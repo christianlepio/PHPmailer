@@ -26,7 +26,7 @@
                 <div class="col-md-5">
                     <div class="form-floating mb-3">
                         <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">Your Email:</label>
+                        <label for="floatingInput">Your Email</label>
                     </div>
                 </div>
             </div>
