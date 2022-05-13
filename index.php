@@ -11,6 +11,6 @@
     <?php
         require 'sendmail.php';
     ?>
-
+    
 </body>
 </html>
