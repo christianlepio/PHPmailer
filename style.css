@@ -4,10 +4,22 @@ button{
     border-radius: 22px;
     background-color: #FFCD38;
     border: 1px solid #FFCD38;
+
+    transform: translate(-50%, -50%);
+    padding: 10px 12px;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 30px;
+    box-shadow: 0 0 0 2px black, 0 0 0 4px white;
+    transition: .5s cubic-bezier(.52,1.65,1,1.31);
 }
 button:hover{
     color: greenyellow;
-    letter-spacing: 1px;
+    letter-spacing: 5px;
     box-shadow: 0 0 0 1px black, 0 0 0 3px #47817F;
     background-color: #47817F;
     color: #BFFCF9;
