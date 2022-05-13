@@ -7,9 +7,6 @@ button{
 
     transform: translate(-50%, -50%);
     
-    color: white;
-    background-color: black;
-    text-transform: uppercase;
     letter-spacing: 1px;
     text-decoration: none;
     border-radius: 30px;
