@@ -12,6 +12,9 @@
         require 'sendmail.php';
     ?>
     <div class="container">
+        <form action="" method="post">
+            
+        </form>
         <div class="row justify-content-center">
             <div class="col-md-5"></div>
         </div>
