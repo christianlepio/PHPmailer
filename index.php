@@ -16,7 +16,7 @@
         <form action="" method="post">
             <div style="width: 90vmin; border:1px solid black; margin:auto">
             <div class="row justify-content-center">
-                <div class="col-md-10">
+                <div class="col-md-10 px-3">
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" required>
                         <label for="floatingInput">Your Name<span class="text-danger"> *</span></label>
