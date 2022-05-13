@@ -49,8 +49,8 @@
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-md-11 px-4">
-                        <button type="submit" name="sendmail">Send</button>
+                    <div class="col-md-11 px-4 d-flex justify-content-center">
+                        <button class="mt-4" type="submit" name="sendmail">Send</button>
                     </div>
                 </div>
             </div>
