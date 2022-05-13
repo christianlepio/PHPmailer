@@ -7,4 +7,9 @@ button{
 }
 button:hover{
     color: greenyellow;
+    letter-spacing: 1px;
+    box-shadow: 0 0 0 1px black, 0 0 0 3px #47817F;
+    background-color: #47817F;
+    color: #BFFCF9;
+    transform: translate(-50%, -50%) scaleY(.9);
 }
