@@ -36,7 +36,7 @@
                     <div class="col-md-11 px-4">
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" required>
-                            <label for="floatingInput">Subject</label>
+                            <label for="floatingInput">Subject<span class="text-danger"> *</span></label>
                         </div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@
                     <div class="col-md-11 px-4">
                         <div class="form-floating">
                             <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea" style="height: 150px"></textarea>
-                            <label for="floatingTextarea">Your Message</label>
+                            <label for="floatingTextarea">Your Message<span class="text-danger"> *</span></label>
                         </div>
                     </div>
                 </div>
