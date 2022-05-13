@@ -10,6 +10,7 @@
 <body>
     <?php
         require 'sendmail.php';
+        //name, email, subj., your message...
     ?>
     <div class="container">
         <form action="" method="post">
