@@ -13,5 +13,6 @@ button:hover{
     background-color: #FF8D29;
     border: 1px solid #FF8D29;
     color: white;
-    transform: translate(0%, 0%) scaleY(.1);
+    width: 71vmin;
+    transform: translate(0%, 0%);
 }
