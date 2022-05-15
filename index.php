@@ -9,9 +9,6 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <?php
-        require 'sendmail.php';
-    ?>
     <div class="container">
         <form action="" method="post">
             <div style="width: 90vmin; margin:auto; margin-top:1em; border-radius:15px;" class="py-5 bg-light shadow">
