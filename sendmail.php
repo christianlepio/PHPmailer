@@ -45,12 +45,6 @@
     
             $mail->send();
             echo '<center>YOUR MESSAGE HAS BEEN SENT!</center>';
-            echo "<script>
-            Swal.fire(
-                'Good job!',
-                'You clicked the button!',
-                'success'
-              )</script>";
         }catch(Exception $e){
             echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
         }
