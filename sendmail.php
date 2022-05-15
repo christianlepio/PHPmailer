@@ -12,6 +12,8 @@
         //Create an instance; passing `true` enables exceptions
         $mail = new PHPMailer(true);
 
+
+
         try{
             //setup server
             $mail->isSMTP();
@@ -24,7 +26,7 @@
     
             //for recipients
             $mail->setFrom('confessnow.contact@gmail.com','testEmail');
-            $mail->addAddress('lepioryanchristian_bscs@plmun.edu.ph');
+            $mail->addAddress('ebradalanzfrealyn_bscs@plmun.edu.ph');
             //$mail->addReplyTo('info@example.com', 'Information');
             //$mail->addCC('cc@example.com');
             //$mail->addBCC('bcc@example.com');
