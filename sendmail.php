@@ -40,8 +40,8 @@
     
             //for email content
             $mail->isHTML(true);
-            $mail->Subject = 'Subject Testing';
-            $mail->Body = '<b>Good day!</b><br><br>This is just an test email from <i>PHPMailer.</i>';
+            $mail->Subject = $ysubj;
+            $mail->Body = $ymessage;
     
             //$mail->send();
             //echo '<center>YOUR MESSAGE HAS BEEN SENT!</center>';
