@@ -20,7 +20,7 @@
                 <div class="row justify-content-center">
                     <div class="col-md-11 px-4">
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                            <input type="text" name="" class="form-control" id="floatingInput" placeholder="name@example.com" required>
                             <label for="floatingInput">Your Name<span class="text-danger"> *</span></label>
                         </div>
                     </div>
