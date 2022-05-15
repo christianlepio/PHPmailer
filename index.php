@@ -16,7 +16,7 @@
                 <div class="row justify-content-center">
                     <div class="col-md-11 px-4">
                         <div class="form-floating mb-3">
-                            <input type="text" name="yname" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                            <input type="text" name="yname" class="form-control" id="floatingInput" placeholder="name@example.com" autofocus required>
                             <label for="floatingInput">Your Name<span class="text-danger"> *</span></label>
                         </div>
                     </div>
