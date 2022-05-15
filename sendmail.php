@@ -12,10 +12,10 @@
         //Create an instance; passing `true` enables exceptions
         $mail = new PHPMailer(true);
 
-        $yname = $_POST[''];
-        $ymail = $_POST[''];
-        $ysubj = $_POST[''];
-        $ymessage = $_POST[''];
+        $yname = $_POST['yname'];
+        $ymail = $_POST['yemail'];
+        $ysubj = $_POST['ysubj'];
+        $ymessage = $_POST['ymessage'];
 
         try{
             //setup server
