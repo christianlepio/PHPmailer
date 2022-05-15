@@ -44,7 +44,7 @@
                 <div class="row justify-content-center">
                     <div class="col-md-11 px-4">
                         <div class="form-floating">
-                            <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea" style="height: 150px"></textarea>
+                            <textarea class="form-control" name="ymessage" placeholder="Leave a message here" id="floatingTextarea" style="height: 150px"></textarea>
                             <label for="floatingTextarea">Your Message<span class="text-danger"> *</span></label>
                         </div>
                     </div>
