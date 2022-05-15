@@ -15,7 +15,7 @@
     ?>
     <div class="container">
         <form action="" method="post">
-            <div class="bg-light" style="width: 90vmin; margin:auto; margin-top:1em; border-radius:15px;" class="py-5 shadow">
+            <div style="width: 90vmin; margin:auto; margin-top:1em; border-radius:15px;" class="py-5 bg-light shadow">
                 <h4 class="fs-4 text-center text-secondary mb-5">Send Me a Message</h4>
                 <div class="row justify-content-center">
                     <div class="col-md-11 px-4">
