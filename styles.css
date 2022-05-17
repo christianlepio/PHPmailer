@@ -16,5 +16,5 @@ button:hover{
     border: 1px solid #FF8D29;
     color: white;
     width: 71vmin;
-    transform: translate(0%, 0%);
+    transform: translate(0%, 0%)
 }
