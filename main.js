@@ -1,6 +1,4 @@
-
-
-  $( ".btbt" ).on( "click", function(e){
+$( ".btbt" ).on( "click", function(e){
       e.preventDefault();
 
       Swal.fire({
@@ -13,16 +11,12 @@
         confirmButtonText: 'Yes, delete it!'
       }).then((result) => {
         if (result.isConfirmed) {
-            location.href = "http://localhost/phpmailer/";
-          
+          Swal.fire(
+            'Email Sent!',
+            'Your message has been sent successfully!',
+            'success'
+          )
+          location.href = "http://localhost/phpmailer/";
         }
-        
       })
-      Swal.fire(
-        'Email Sent!',
-        'Your message has been sent successfully!',
-        'success'
-      )
-
-
   });
