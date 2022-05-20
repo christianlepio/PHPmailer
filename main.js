@@ -13,13 +13,14 @@
         confirmButtonText: 'Yes, delete it!'
       }).then((result) => {
         if (result.isConfirmed) {
-          Swal.fire(
+            location.href = "http://localhost/phpmailer/";
+          
+        }
+        Swal.fire(
             'Email Sent!',
             'Your message has been sent successfully!',
             'success'
           )
-          location.href = "http://localhost/phpmailer/";
-        }
       })
 
 
