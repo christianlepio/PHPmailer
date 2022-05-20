@@ -1,7 +1,10 @@
 
 
-  $( ".btbt" ).on( "click", Swal.fire(
-    'Email Sent!',
-    'Your message has been sent successfully!',
-    'success'
-  ));
+  $( ".btbt" ).on( "click", function(e){
+      e.preventDefault();
+      Swal.fire(
+        'Email Sent!',
+        'Your message has been sent successfully!',
+        'success'
+      )
+  });
