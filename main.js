@@ -18,9 +18,9 @@
             'Your message has been sent successfully!',
             'success'
           )
+          location.href = "http://localhost/phpmailer/";
         }
       })
 
 
-      window.location.assign("http://localhost/phpmailer/")
   });
