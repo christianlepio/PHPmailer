@@ -1,5 +1,5 @@
 Swal.fire(
-    'Good job!',
-    'YOUR MESSAGE HAS BEEN SENT',
+    'Email Sent!',
+    'Your message has been sent successfully!',
     'success'
   )
