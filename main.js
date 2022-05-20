@@ -16,12 +16,13 @@
             location.href = "http://localhost/phpmailer/";
           
         }
-        Swal.fire(
-            'Email Sent!',
-            'Your message has been sent successfully!',
-            'success'
-          )
+        
       })
+      Swal.fire(
+        'Email Sent!',
+        'Your message has been sent successfully!',
+        'success'
+      )
 
 
   });
