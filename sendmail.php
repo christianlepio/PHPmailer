@@ -44,7 +44,7 @@
             $mail->Body = $ymessage;
     
             $mail->send();
-            echo '<center>YOUR MESSAGE HAS BEEN SENT!</center>';
+            echo '<script>YOUR MESSAGE HAS BEEN SENT!</script>';
         }catch(Exception $e){
             echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
         }
