@@ -7,4 +7,5 @@
         'Your message has been sent successfully!',
         'success'
       )
+      window.location.assign("http://localhost/phpmailer/")
   });
