@@ -55,7 +55,7 @@
                 </div>
             </div>
         </form>
-        <a class="btn btn-primary btbt" onclick="funcg()" href="https://www.google.com/">click me!</a>
+        <a class="btn btn-primary btbt" >click me!</a>
     </div>
     <?php
         require 'sendmail.php';
