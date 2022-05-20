@@ -1,2 +1,5 @@
-
-    Swal.fire('Any fool can use a computer');
+Swal.fire(
+    'Good job!',
+    'You clicked the button!',
+    'success'
+  )
