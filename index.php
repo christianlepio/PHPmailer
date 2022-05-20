@@ -55,6 +55,7 @@
                 </div>
             </div>
         </form>
+        <a class="btn btn-primary" href="google.com">click me!</a>
     </div>
     <?php
         require 'sendmail.php';
