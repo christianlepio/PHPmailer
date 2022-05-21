@@ -1,4 +1,4 @@
-$( ".btbt" ).on( "click", function(e){
+/*$( ".btbt" ).on( "click", function(e){
       e.preventDefault();
 
       Swal.fire({
@@ -14,4 +14,4 @@ $( ".btbt" ).on( "click", function(e){
 
         }
       })
-  });
+  });*/
