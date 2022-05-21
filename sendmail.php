@@ -1,3 +1,4 @@
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.14/dist/sweetalert2.all.min.js"></script>
 <?php
     //Import PHPMailer classes into the global namespace
     //These must be at the top of your script, not inside a function
