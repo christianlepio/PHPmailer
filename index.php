@@ -55,10 +55,6 @@
                 </div>
             </div>
         </form>
-        <!--a class="btn btn-primary" >click me!</a-->
-        <form action="" method="post">
-        <textarea name="blogdescription" type="textarea" id="blogdescription" class="regular-text"  cols="67" rows="7" /><?php form_option('blogdescription'); ?></textarea>
-        </form>
     </div>
     <?php
         require 'sendmail.php';
