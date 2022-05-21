@@ -20,7 +20,7 @@ $( ".btbt" ).on( "click", function(e){
         })
         setTimeout(function(){
           location.href = "http://localhost/phpmailer/";
-        }, 3500);
+        }, 1500);
         }
       })
   });
