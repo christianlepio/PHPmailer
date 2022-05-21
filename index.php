@@ -56,14 +56,7 @@
             </div>
         </form>
         <form action="" method="post">
-            <div class="row justify-content-center">
-                <div class="col-md-11 px-4">
-                    <div class="form-floating">
-                        <textarea class="form-control" name="ymessage" placeholder="Leave a message here" id="floatingTextarea" style="height: 120px"></textarea>
-                        <label for="floatingTextarea">Your Message<span class="text-danger"> *</span></label>
-                    </div>
-                </div>
-            </div>
+
         </form>
     </div>
     <?php
