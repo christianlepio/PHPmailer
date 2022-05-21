@@ -13,7 +13,7 @@ $( ".btbt" ).on( "click", function(e){
         if (result.isConfirmed) {
           Swal.fire({
             title: 'Email Sent!',
-            //'Your message has been sent successfully!',
+            text: 'Your message has been sent successfully!',
             icon: 'success',
             showConfirmButton: false,
             timer: 1500
