@@ -11,11 +11,13 @@ $( ".btbt" ).on( "click", function(e){
         confirmButtonText: 'Yes, delete it!'
       }).then((result) => {
         if (result.isConfirmed) {
-          Swal.fire(
-            'Email Sent!',
-            'Your message has been sent successfully!',
-            'success'
-          )
+          Swal.fire({
+            title: 'Email Sent!',
+            //'Your message has been sent successfully!',
+            icon: 'success',
+            showConfirmButton: false,
+            timer: 1500
+        })
           location.href = "http://localhost/phpmailer/";
         }
       })
