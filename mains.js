@@ -18,7 +18,7 @@ $( ".btbt" ).on( "click", function(e){
             showConfirmButton: false,
             timer: 1500
         })
-          location.href = "http://localhost/phpmailer/";
+          //location.href = "http://localhost/phpmailer/";
         }
       })
   });
