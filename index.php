@@ -55,9 +55,6 @@
                 </div>
             </div>
         </form>
-        <form action="" method="post">
-
-        </form>
     </div>
     <?php
         require 'sendmail.php';
