@@ -16,7 +16,7 @@ $( ".btbt" ).on( "click", function(e){
             'Email Sent!',
             'Your message has been sent successfully!',
             'success'
-          ),5000)
+          ),50000)
           location.href = "http://localhost/phpmailer/";
         }
       })
