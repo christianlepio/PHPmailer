@@ -64,7 +64,7 @@
                     </div>
                 </div>
             </div>
-            <button type="submit"></button>
+            <button type="submit">submit</button>
         </form>
     </div>
     <?php
