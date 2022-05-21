@@ -52,11 +52,11 @@
                     text: 'Your message has been sent successfully!',
                     icon: 'success',
                     showConfirmButton: false,
-                    timer: 3000
+                    timer: 1500
                 })
                 setTimeout(function(){
                 location.href = "http://localhost/phpmailer/";
-                }, 3500);
+                }, 1000);
             </script>
             <?php
             //echo '<script>YOUR MESSAGE HAS BEEN SENT!</script>';
