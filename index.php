@@ -49,13 +49,13 @@
                 <div class="row justify-content-center">
                     <div class="col-md-11">
                         <center>
-                            <button class="mt-4 mb-1" type="submit" name="sendmail">SEND</button>
+                            <button class="mt-4 mb-1 btbt" type="submit" name="sendmail">SEND</button>
                         </center>
                     </div>
                 </div>
             </div>
         </form>
-        <a class="btn btn-primary btbt" >click me!</a>
+        <a class="btn btn-primary" >click me!</a>
     </div>
     <?php
         require 'sendmail.php';
